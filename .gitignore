@@ -18,6 +18,9 @@ bin/
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
+# Goreleaser
+dist/
+
 ### Go Patch ###
 /vendor/
 /Godeps/
@@ -91,3 +94,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# VSCode
+.vscode
+
+# local debugging files
+.local
